@@ -50,6 +50,11 @@ Streamlit will print a local URL, usually `http://localhost:8501`.
 - Basic demo product information
 - Requests to escalate to a human
 
+- <img width="1426" height="879" alt="image" src="https://github.com/user-attachments/assets/07932466-d652-45f8-8427-5d4b20a1e5a8" />
+<img width="1422" height="885" alt="image" src="https://github.com/user-attachments/assets/a37e1b75-3d72-4f7f-8c79-9ebaac7b617d" />
+
+
+
 ## Important limitations
 - The order and product data are hard-coded mock data.
 - Return/refund/cancellation actions are not implemented.
