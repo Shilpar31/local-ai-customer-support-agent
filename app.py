@@ -12,10 +12,8 @@ from langgraph.prebuilt import ToolNode, tools_condition
 from langgraph.checkpoint.memory import MemorySaver
 
 
-# -----------------------------
 # Demo customer/order data
 # Replace these dictionaries with a database or API in production.
-# -----------------------------
 ORDERS = {
     "12345": {
         "status": "Out for delivery",
@@ -49,9 +47,9 @@ SHIPPING_POLICY = (
 )
 
 
-# -----------------------------
+
 # LangGraph state and tools
-# -----------------------------
+
 class GraphState(TypedDict):
     messages: Annotated[list, add_messages]
 
@@ -164,7 +162,7 @@ st.set_page_config(
     layout="centered",
 )
 
-st.title("💬 Local AI Customer Support")
+st.title("Local AI Customer Support")
 st.caption("Powered by Qwen3 8B + Ollama + LangGraph. Uses demo order data only.")
 
 with st.sidebar:
